@@ -15,14 +15,12 @@ function App() {
       </Headroom>
 
 
-  <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/realisations" element={<Realisations />} />
 
       </Routes>
-  </HashRouter>
 
       {/*Footer*/}
       <Footer />
