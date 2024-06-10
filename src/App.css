@@ -50,3 +50,8 @@ html {
   border-radius: 30px;
   transform: scaleX(1);
 }
+@media(min-width:350px) {
+  body{
+    width: 100%;
+  }
+}
