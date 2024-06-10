@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React_test/static/css/main.76da7463.css",
+    "main.js": "/React_test/static/js/main.8da4417a.js",
+    "static/media/dbagh.png": "/React_test/static/media/dbagh.0c882ef232b6ebee4693.png",
+    "static/media/pc.jpg": "/React_test/static/media/pc.5686444634e94f57c6d6.jpg",
+    "index.html": "/React_test/index.html",
+    "main.76da7463.css.map": "/React_test/static/css/main.76da7463.css.map",
+    "main.8da4417a.js.map": "/React_test/static/js/main.8da4417a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76da7463.css",
+    "static/js/main.8da4417a.js"
+  ]
+}
