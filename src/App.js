@@ -1,25 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
-
+import { Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer'
+import { Home } from './components/pages/Home'
+import { Contact } from './components/pages/Contact'
+import { Realisations } from './components/pages/Realisations';
+import Headroom from 'react-headroom';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='font-inter right-0 left-0 w-full p-0 m-0 '>
+      <Headroom className=' w-full fixed z-20 '>
+        <Navbar />
+
+      </Headroom>
+
+
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/realisations" element={<Realisations />} />
+
+      </Routes>
+      {/*Footer*/}
+      <Footer />
     </div>
-  );
+  )
 }
 
 export default App;
